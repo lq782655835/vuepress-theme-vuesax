@@ -1,0 +1,18 @@
+{
+  "name": "vuepress-theme-vuesax",
+  "version": "1.0.0",
+  "description": "vuepress theme for vuesax",
+  "main": "index.js",
+  "repository": "https://github.com/lq782655835/vuepress-theme-vuesax",
+  "author": "springleo <782655835@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev example",
+    "build": "vuepress build example",
+    "ghpages": "npm run build && gh-pages -d example/.vuepress/dist"
+},
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "vuepress": "^1.4.0"
+  }
+}
